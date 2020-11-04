@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    color: #5a5a5a;
+}
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+  }
+
+p{
+    color: var(--color-text-complement);
+}
+
+#lista{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    list-style-type: circle;
+    list-style-position: inside;
+    font-weight: 300;
+    font-size: 1rem
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#lista li{
+  margin-bottom: 10px;
+}
+
+#imgGif{
+  height: 80%;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+
+
+@media (min-width: 40em) {
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+
+  
+@media (min-width: 90em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+  }

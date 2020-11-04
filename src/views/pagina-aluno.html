@@ -1,0 +1,245 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Página do aluno</title>
+
+	<!-- boostrap -->
+	<link href="../../public/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- font awesome -->
+	<link href="../../public/css/all.css" rel="stylesheet">
+
+	<!-- folha de estilo propria -->
+	<link rel="stylesheet" href="../../public/css/main.css">
+	<link rel="stylesheet" href="../../public/css/pagina_aluno.css">
+	<link href="../../public/css/estilo.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+	<!-- favicon -->
+	<link href="public/img/favicon.png" rel="icon">
+
+</head>
+
+<body>
+	<header>
+		<!-- inicio menu -->
+		<nav class="navbar navbar-dark navbar-expand-lg navbar-default fixed-top">
+			<div class="container-fluid">
+				<!-- logo -->
+				<a class="navbar-brand" href="./index.html">
+					<img id="logoImg" src="../../public/img/logoProjeto.png">
+					Sistemas Para Internet
+				</a>
+
+				<!-- botao para menu no celular -->
+				<button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<!-- menu -->
+				<div class="collapse navbar-collapse" id="menu">
+					<ul class="navbar-nav ml-md-auto text-light">
+						<li class="nav-item">
+							<a class="nav-link" href="./nosso-curso.html">Sobre o curso</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./pagina-aluno.html">Pagina do aluno</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./galeria.html">Projetos</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./geleria-fotos.html">Galeria</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<!-- fim menu -->
+	</header>
+	<div class="container">
+		<hr class="featurette-divider">
+		<!--Post-it-->
+		
+		<ul class="lista">
+			<p class= "lead">Fique por dentro de todas as informações para você aluno:</p>
+			<li>
+				<a class="post_it" href="https://www.ifb.edu.br/attachments/article/8473/Calend%C3%A1rioCBRA2020_Superior-.pdf" target="_blank" >
+					<h2>Caléndario </h2>
+					<p>Acadêmico</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it" id="button" href="#">
+					<h2>Grade</h2>
+					<p>horária</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it" target="_blanck" href="./corpo-docente.html">
+					<h2>Nossos</h2>
+					<p>profs.</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it" target="_blanck" href="./calendario.html">
+					<h2>Eventos</h2>
+					<p>Setemb.</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it" href="https://www.ifb.edu.br/attachments/article/10765/PPC_Sistemas%20para%20Internet.pdf" target="_blank" >
+					<h2>PPC</h2>
+					<p>curso</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it" target="_blanck" href="../views/400.html">
+					<h2>Titulo #6</h2>
+					<p>text content</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it"  target="_blanck" href="../views/400.html">
+					<h2>Titulo #7</h2>
+					<p>text content</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it"  target="_blanck" href="../views/400.html">
+					<h2>Titulo #8</h2>
+					<p>text content</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it"  target="_blanck" href="../views/400.html">
+					<h2>Titulo #9</h2>
+					<p>text content</p>
+				</a>
+			</li>
+			<li>
+				<a class="post_it"  target="_blanck" href="../views/400.html">
+					<h2>Titulo #10</h2>
+					<p>text content</p>
+				</a>
+			</li>
+		</ul>
+
+		<!-- fim do Post-it-->
+	</div>
+
+	<!-- rodapé -->
+	<footer class="text-light text-center bg-dark">
+		<p class="lead">Desenvolvido por <a href="#">Polyana Cristina.</p>
+	</footer>
+	<!-- fim rodapé -->
+
+	<style>
+		.bg-modal{
+			width: 100vw;
+			height: 100vh;
+			background-color: black;
+			opacity: 0.7;
+			position: absolute;
+			z-index: 2000;
+			top: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			display: none;
+		}
+
+		.modal-content{
+			width: 500px;
+			height: 400px;
+			background-color: white;
+			opacity: 1;
+			border-radius: 4px;
+			text-align: center;
+			padding: 20px;
+			position: relative;
+		}
+
+		.close{
+			position: absolute;
+			top: 0;
+			right: 14px;
+			font-size: 42px;
+			transform: rotate(45deg);
+			cursor: pointer;
+		}
+
+		h3 .curso {
+			text-decoration: none;
+			font-family: 'Roboto' sans-serif;
+		}
+
+		h3 .curso{
+			font-weight: 500;
+			color: black;
+			font-size: 1.2rem;
+		}
+
+		
+	</style>
+	<!--Modal-->
+	<div class="bg-modal">
+		<div class="modal-content">
+			<div class="close">+</div>
+			<h3 class="subtitulo">Escolha a turma</h3>
+		<ul>
+            <li>
+               <a class="curso" href="">TSI1V</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI1N</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI2V</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI2N</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI3V</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI3N</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI4V</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI4N</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI5V</a> 
+            </li>
+            <li>
+               <a class="curso" href="">TSI5N</a> 
+            </li>
+        </ul>
+		</div>
+	</div>
+	<!--Fim modal-->
+
+	<script>
+		document.getElementById('button').addEventListener('click', 
+		function(){
+			item = document.querySelector('.bg-modal')
+			item.style.display='flex';
+		});
+
+		document.querySelector('.close').addEventListener('click', function(){
+			fechar = document.querySelector('.bg-modal');
+			fechar.style.display = 'none';
+		});
+	</script>
+
+	<script src="../../public/js/jquery.js"></script>
+	<script src="../../public/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

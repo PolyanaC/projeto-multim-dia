@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../public/css/fotos.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+        integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../public/venobox/venobox/venobox.min.css" type="text/css" media="screen" />
+    <!-- boostrap -->
+    <link href="../../public/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link href="../../public/css/all.css" rel="stylesheet">
+
+    <!-- folha de estilo propria -->
+    <link rel="stylesheet" href="../../public/css/main.css">
+</head>
+
+<body>
+    
+    <div class="wrapper">
+        <nav class="navbar navbar-dark navbar-expand-lg navbar-default fixed-top">
+            <div class="container-fluid">
+                <!-- logo -->
+                <a class="navbar-brand" href="./index.html">
+                    <img id="logoImg" src="../../public/img/logoProjeto.png">
+                    Sistemas Para Internet
+                </a>
+    
+                <!-- botao para menu no celular -->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+    
+                <!-- menu -->
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav ml-md-auto text-light">
+                        <li class="nav-item">
+                            <a class="nav-link" href="./nosso-curso.html">Sobre o curso</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pagina-aluno.html">Pagina do aluno</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./geleria-fotos.html">Galeria</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Header-->
+        <section class="top_section">
+            <header class="header">
+                <h1 class="black">Galeria TSI</h1>
+                <p class="black">Aqui pode conhecer a nossa estrutura, estamos prontos para te receber!</p>
+                <a class="venobox" href="../../public/img/img-ifb/entrada.jpeg"
+                    data-gall="myGallery"><button>Galeria</button></a>
+             </header>
+            <!--Fim da header section-->
+            <!--container-->
+        </section>
+        <section class="content_section">
+            <div class="playlist_one">
+                <h2 class="playlist_title"></h2>
+                <div class="fotos">
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/entrada.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/entrada.jpeg"><i class="far fa-image"></i></a>
+                        </div>                   
+
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/lab1ifb.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/lab1ifb.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+                        
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/lab2ifb.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/lab2ifb.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+    
+
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/turmaFemininaTsi.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/turmaFemininaTsi.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="playlist_two">
+                <div class="fotos">
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/turma.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/turma.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+                        
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/projetoBanner.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/projetoBanner.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+                        
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/labAlunos.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/labAlunos.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+                    
+                        <div class="foto" style="background-image: url(../../public/img/img-ifb/biblioteca.jpeg)">
+                            <a class="venobox" data-gall="myGallery" href="../../public/img/img-ifb/biblioteca.jpeg"><i class="far fa-image"></i></a>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <!--Fim do contend-->
+    </div>
+    <!--fim do wrapper-->
+    <script src="../../public/js/jquery.js"></script>
+    <script src="../../public/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../../public/js/jquery.js"></script>
+    <script type="text/javascript" src="../../public/venobox/venobox/venobox.min.js"></script>
+    <script>
+        $(document).ready(function(){
+    $('.venobox').venobox({                           
+    border     : '10px',                             
+    bgcolor    : '#5dff5e',                         
+    titleattr  : 'data-title',                       
+    numeratio  : true, 
+    setasColor: '#f4f4f4'                                                       
+ 
+    }); 
+});
+    </script>
+
+</body>
+
+</html>

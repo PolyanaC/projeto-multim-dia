@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+
+table{
+    width: 80%;
+    height: 80%;
+}
+
+h1, td{
+    font-family: 'Roboto', sans-serif;
+}
+
+td{
+    text-align: center;
+}
+
+td:hover{
+    background-color: #cee397;
+    border-radius: 100%;
+    color: #FFF;
+}
+
+.dica{
+    position: relative;
+    margin: 30px;
+    display: inline-block;
+}
+
+.dica:hover .dicaTexto{
+    visibility: visible;
+}
+.dicaTexto{
+    
+    visibility: hidden;
+    font-size: 1.5rem;
+    width: 250px;
+    background: #cee397;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -75px;
+    margin-bottom: 5px;
+}
+
+.dicaTexto::after{
+   content:" "; 
+   position: absolute;
+   top: 100%;
+   left: 50%;
+   margin-left: -5px;
+   border-width: 5px;
+   border-style: solid;
+   border-color: #cee397 transparent transparent transparent;
+}
